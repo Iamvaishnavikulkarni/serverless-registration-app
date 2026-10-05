@@ -2,7 +2,7 @@
 
 A serverless web application for handling user registration using AWS managed services. The project demonstrates how a frontend application can interact with a serverless backend and store registration data without managing traditional servers.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * AWS Lambda
 * Amazon API Gateway
@@ -10,7 +10,7 @@ A serverless web application for handling user registration using AWS managed se
 * Amazon S3
 * AWS IAM
 
-## ☁️ Architecture Overview
+## Architecture Overview
 
 The application uses a serverless architecture where the frontend is hosted on Amazon S3. User registration requests are sent through Amazon API Gateway to AWS Lambda, which processes the request and stores the registration data in Amazon DynamoDB.
 
@@ -18,7 +18,7 @@ IAM is used to manage permissions between the AWS services.
 
 > Architecture diagram will be added to this section.
 
-## ☁️ AWS Services
+## AWS Services
 
 * **Amazon S3** — Static frontend hosting
 * **Amazon API Gateway** — Handles application API requests
@@ -27,7 +27,7 @@ IAM is used to manage permissions between the AWS services.
 * **AWS IAM** — Manages permissions and access
 
 
-## 🔄 Application Workflow
+## Application Workflow
 
 1. The user accesses the frontend hosted on Amazon S3.
 2. The user submits the registration form.
@@ -39,7 +39,7 @@ IAM is used to manage permissions between the AWS services.
 
 
 
-## 🎯 Key Implementation Areas
+## Key Implementation Areas
 
 * Built a serverless application using AWS managed services.
 * Configured API Gateway and Lambda for API-driven backend processing.
@@ -48,11 +48,11 @@ IAM is used to manage permissions between the AWS services.
 * Configured IAM permissions for AWS service interaction.
 * Practiced integrating multiple AWS services into a serverless workflow.
 
-## 📚 Key Learnings
+## Key Learnings
 
 This project provided practical experience with serverless application architecture, API-driven workflows, AWS service integration, database storage, S3 hosting, and IAM-based access control.
 
-## 🔗 Project Flow
+## Project Flow
 
 **S3 → API Gateway → Lambda → DynamoDB**
 
